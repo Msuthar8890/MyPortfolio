@@ -933,7 +933,7 @@ form input[type="submit"]:hover {
         margin-top: 0px;
     }
     .Home-content {
-        text-align: left;
+        text-align: center;
         margin-top: 35px;
     }
     .Home-content h1 {
@@ -979,6 +979,7 @@ form input[type="submit"]:hover {
     }
     .Home-sci a {
         margin: 20px 10px;
+        align-items: center;
     }
     .btn-box {
         font-size: 12px;
@@ -1000,7 +1001,7 @@ form input[type="submit"]:hover {
         padding: 0px 5% 0;
         margin: auto;
         flex-direction: column;
-        background-size: cover;
+        background: none;
     }
     .Home-content h1 {
         font-size: 15px;
@@ -1010,6 +1011,7 @@ form input[type="submit"]:hover {
     }
     .Home-content p {
         font-size: 12px;
+        text-align: center;
     }
     .Home-sci a {
         /* width: 35px;
