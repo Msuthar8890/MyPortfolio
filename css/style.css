@@ -56,7 +56,7 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url('../img/BG.jpg') no-repeat;
+    background: url('../img/BG.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -283,7 +283,6 @@ body {
 
 .heading1 {
     text-align: center;
-    text-decoration: underline;
     text-underline-offset: 18px;
     text-decoration-thickness: 5px;
     margin-bottom: 50px;
@@ -921,6 +920,7 @@ form input[type="submit"]:hover {
         font-size: 28px;
     }
     .Home-content p {
+        display: flex;
         font-size: 18px;
     }
 }
@@ -930,23 +930,24 @@ form input[type="submit"]:hover {
         flex-direction: column;
     }
     .navbar {
-        margin-top: 10px;
+        margin-top: 0px;
     }
     .Home-content {
-        text-align: center;
-        margin-top: 30px;
+        text-align: left;
+        margin-top: 35px;
     }
     .Home-content h1 {
-        font-size: 40px;
+        font-size: 4px;
     }
     .Home-content h3 {
         font-size: 24px;
     }
     .Home-content p {
         font-size: 16px;
+        display: flex;
     }
     .Home-sci {
-        justify-content: center;
+        justify-content: left;
     }
 }
 
@@ -960,19 +961,21 @@ form input[type="submit"]:hover {
     }
     .Home {
         flex-direction: column;
-        padding: 50px 5% 0;
+        padding: 50px 80% 10;
+        background-size: cover;
     }
     .Home-content {
-        max-width: 100%;
+        font-size: 13px;
+        margin-top: 90px;
     }
     .Home-content h1 {
-        font-size: 36px;
+        font-size: 15px;
     }
     .Home-content h3 {
-        font-size: 22px;
+        font-size: 15px;
     }
     .Home-content p {
-        font-size: 14px;
+        font-size: 12px;
     }
     .Home-sci a {
         margin: 20px 10px;
@@ -985,33 +988,41 @@ form input[type="submit"]:hover {
 
 @media (max-width: 576px) {
     .header {
-        padding: 15px 2%;
+        padding: 10px 2%;
     }
     .navbar a {
         font-size: 14px;
         margin-left: 10px;
     }
     .Home {
-        padding: 30px 5% 0;
+        /* padding: 70px 5% 20; */
+        height: auto;
+        padding: 0px 5% 0;
+        margin: auto;
+        flex-direction: column;
+        background-size: cover;
     }
     .Home-content h1 {
-        font-size: 32px;
+        font-size: 15px;
     }
     .Home-content h3 {
-        font-size: 20px;
+        font-size: 15px;
     }
     .Home-content p {
         font-size: 12px;
     }
     .Home-sci a {
-        width: 35px;
-        height: 35px;
-        font-size: 18px;
+        /* width: 35px;
+        height: 35px; */
+        /* font-size: 18px; */
         margin: 10px 5px;
+        width: 25px;
+        height: 25px;
+        font-size: 14px;
     }
     .btn-box {
         font-size: 10px;
-        padding: 8px 16px;
+        padding: 8px 19px;
     }
 }
 
@@ -1026,7 +1037,7 @@ form input[type="submit"]:hover {
         font-size: 26px;
     }
     .about-text p {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 
